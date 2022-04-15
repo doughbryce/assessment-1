@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-let gitDefinition = `git is a local version control software that will keep track of your code revision history. It acts like checkpoints in a video game, where you can expirament with the code and return to the last save point in the event that something goes terribly wrong, which it will.`
+let gitDefinition = `git is a local version control software that will keep track of your code revision history. It acts like checkpoints in a video game, where you can expirament with the code and return to the last save point in the event that something goes terribly wrong, which it will.`;
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@ let gitDefinition = `git is a local version control software that will keep trac
     It should be a string containing your best definition of what GitHub is.
 */
 
-let gitHubDefinition = `similar to git, git hub is a remote, cloud based, version control system. it enables checkpoint saving, like git, but also allows you to share code with other developers and push your code to remote servers, giving it another layer of protection against the inevitable disasters.`
+let gitHubDefinition = `similar to git, git hub is a remote, cloud based, version control system. it enables checkpoint saving, like git, but also allows you to share code with other developers and push your code to remote servers, giving it another layer of protection against the inevitable disasters.`;
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@ let gitHubDefinition = `similar to git, git hub is a remote, cloud based, versio
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+let gitInitDefinition = `git init is the first step in the git lifecycle. it is how you initialize a repository with the git software, essentially saying - sign up the current directory with git.`;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@ let gitHubDefinition = `similar to git, git hub is a remote, cloud based, versio
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+let gitCloneDefinition = `git clone is exactly what it sounds like - it will duplicate whatever repository is specified, creating a copy of that repo and enabling it to be manipulated without having to alter the original files.`;
 
 //////////////////PROBLEM 5////////////////////
 /*

@@ -36,5 +36,13 @@ let middleNums = numbers.splice(1, 3);
 */
 
 let bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352];
+let answers = [];
 
-// CODE HERE
+for (let i = 0; i < bigOrSmallArray.length; i++) {
+  if (bigOrSmallArray[i] > 100) {
+    answers.push(bigOrSmallArray[i]);
+  } else {
+    answers.push(`small`);
+  }
+  // console.log(answers);
+}

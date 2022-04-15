@@ -65,7 +65,9 @@ let gitAddCode = `git add .`;
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+let gitCommitDefinition = `this is usually accompanied by a git message, and acts as the shipping label in our packaging analogy. it is like a label or flag that marks whatever has been added but not yet commited to be under the umbrella of whatever label is specified. kind of like the marker for the checkpoint.`;
+
+let gitCommitCode = `git commit -m "initial commit`;
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +76,4 @@ let gitAddCode = `git add .`;
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+let gitPushDefinition = `this is the actual shipping. this is where we go to the post office and drop the package in. it sends the latest add and commit to your remote repository on github, making it available to whomever has access to the github repo. it is the final step in the git process. (git push origin main) or just (git push)`;

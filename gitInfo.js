@@ -41,7 +41,7 @@ let gitCloneDefinition = `git clone is exactly what it sounds like - it will dup
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+let gitStatusDefinition = `git status simply tells you information regarding the relationship and condition of your current directory with the git software. it will give you whatever current information it has regarding what is up to date with the last git commit or add, what has been changed but not saved yet, and a few helpful commands in case you forgot what youre supposed to type next.`;
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,9 @@ let gitCloneDefinition = `git clone is exactly what it sounds like - it will dup
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+let gitAddDefinition = `git add is like packaging up all the resources that have been changed since the last add and getting them ready for shipment. it will add to the packages everything that you specify it to add. we usually do (git add .) in order to add all that has not yet been added.`;
+
+let gitAddCode = `git add .`;
 
 //////////////////PROBLEM 7////////////////////
 /*

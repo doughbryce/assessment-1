@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = `git is a local version control software that will keep track of your code revision history. It acts like checkpoints in a video game, where you can expirament with the code and return to the last save point in the event that something goes terribly wrong, which it will.`
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = `similar to git, git hub is a remote, cloud based, version control system. it enables checkpoint saving, like git, but also allows you to share code with other developers and push your code to remote servers, giving it another layer of protection against the inevitable disasters.`
 
 //////////////////PROBLEM 3////////////////////
 /*
